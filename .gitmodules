@@ -103,3 +103,6 @@
 [submodule "custom_nodes/comfyui-custom-branding"]
 	path = custom_nodes/comfyui-custom-branding
 	url = https://github.com/pixelmavenai/comfyui-custom-branding.git
+[submodule "custom_nodes/RES4LYF"]
+	path = custom_nodes/RES4LYF
+	url = https://github.com/ClownsharkBatwing/RES4LYF.git
