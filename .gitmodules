@@ -115,3 +115,6 @@
 [submodule "custom_nodes/ComfyUI_VNCCS_Utils"]
 	path = custom_nodes/ComfyUI_VNCCS_Utils
 	url = https://github.com/AHEKOT/ComfyUI_VNCCS_Utils.git
+[submodule "custom_nodes/ComfyUI-QwenVL"]
+	path = custom_nodes/ComfyUI-QwenVL
+	url = https://github.com/aistudynow/ComfyUI-QwenVL.git
