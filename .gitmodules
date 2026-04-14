@@ -79,9 +79,6 @@
 [submodule "custom_nodes/ComfyUI_Swwan"]
 	path = custom_nodes/ComfyUI_Swwan
 	url = https://github.com/aining2022/ComfyUI_Swwan.git
-[submodule "custom_nodes/ComfyUI-QwenVL"]
-	path = custom_nodes/ComfyUI-QwenVL
-	url = https://github.com/1038lab/ComfyUI-QwenVL.git
 [submodule "custom_nodes/ComfyUI-Inpaint-CropAndStitch"]
 	path = custom_nodes/ComfyUI-Inpaint-CropAndStitch
 	url = https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git
