@@ -109,3 +109,12 @@
 [submodule "custom_nodes/Nvidia_RTX_Nodes_ComfyUI"]
 	path = custom_nodes/Nvidia_RTX_Nodes_ComfyUI
 	url = https://github.com/Comfy-Org/Nvidia_RTX_Nodes_ComfyUI.git
+[submodule "custom_nodes/ComfyUI-Impact-Subpack"]
+	path = custom_nodes/ComfyUI-Impact-Subpack
+	url = https://github.com/ltdrdata/ComfyUI-Impact-Subpack.git
+[submodule "custom_nodes/ComfyUI-Jjk-Nodes"]
+	path = custom_nodes/ComfyUI-Jjk-Nodes
+	url = https://github.com/jjkramhoeft/ComfyUI-Jjk-Nodes.git
+[submodule "custom_nodes/ComfyUI_VNCCS_Utils"]
+	path = custom_nodes/ComfyUI_VNCCS_Utils
+	url = https://github.com/AHEKOT/ComfyUI_VNCCS_Utils.git
