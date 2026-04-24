@@ -1,6 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+
+
+# Deinit all submodules at once
+git submodule deinit -f --all
+
+# Remove all submodule entries from git
+git rm -f $(git submodule | awk '{print $2}')
+
+# Clean up git internal module cache
+rm -rf .git/modules/custom_nodes
+
+# Remove the .gitmodules file
+rm -f .gitmodules
+
+# Commit the removal
+git add .
+git commit -m "Remove all submodules — clean slate"
+git push origin master
+
+
+
+
 REPOS=(
   "https://github.com/ltdrdata/ComfyUI-Manager.git"
   "https://github.com/Fannovel16/comfyui_controlnet_aux.git"
@@ -39,6 +61,8 @@ REPOS=(
   "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git"
   "https://github.com/PozzettiAndrea/ComfyUI-SAM3.git"
   "https://github.com/pixelmavenai/comfyui-custom-branding.git"
+  "https://github.com/ClownsharkBatwing/RES4LYF.git"
+  # removed wrong URL above, added correct one below with custom folder name to avoid clash with 1038lab/ComfyUI-QwenVL
 )
 
 mkdir -p custom_nodes
@@ -58,7 +82,6 @@ for url in "${REPOS[@]}"; do
     git submodule add -f "$url" "custom_nodes/${name}" || echo "Failed: ${url}"
   fi
 done
-
 git add .gitignore .gitmodules custom_nodes/
 git commit -m "Add custom nodes as submodules"
 git push origin master
