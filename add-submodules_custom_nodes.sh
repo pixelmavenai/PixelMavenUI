@@ -62,6 +62,8 @@ REPOS=(
   "https://github.com/PozzettiAndrea/ComfyUI-SAM3.git"
   "https://github.com/pixelmavenai/comfyui-custom-branding.git"
   "https://github.com/ClownsharkBatwing/RES4LYF.git"
+  "https://github.com/aria1th/ComfyUI-LogicUtils.git"
+  "https://github.com/pixaroma/ComfyUI-Pixaroma.git"
   # removed wrong URL above, added correct one below with custom folder name to avoid clash with 1038lab/ComfyUI-QwenVL
 )
 
