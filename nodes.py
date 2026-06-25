@@ -1629,14 +1629,10 @@ class SaveImage:
         return {
             "required": {
                 "images": ("IMAGE", {"tooltip": "The images to save."}),
-<<<<<<< HEAD
-                "filename_prefix": ("STRING", {"default": "PixelMavenAI", "tooltip": "The prefix for the file to save. This may include formatting information such as %date:yyyy-MM-dd% or %Empty Latent Image.width% to include values from nodes."})
-=======
                 "filename_prefix": ("STRING", {
-                    "default": "ComfyUI",
+                    "default": "PixelMavenAI",
                     "tooltip": "The prefix for the file to save. This may include formatting information such as %date:yyyy-MM-dd% or %Empty Latent Image.width% to include values from nodes."
                 })
->>>>>>> upstream/master
             },
             "hidden": {
                 "prompt": "PROMPT", "extra_pnginfo": "EXTRA_PNGINFO"
