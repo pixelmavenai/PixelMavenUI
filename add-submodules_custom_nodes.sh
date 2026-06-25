@@ -37,8 +37,8 @@ REPOS=(
   "https://github.com/kijai/ComfyUI-Florence2.git"
   "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git"
   "https://github.com/kijai/ComfyUI-SUPIR.git"
-  "https://github.com/nunchaku-ai/ComfyUI-nunchaku.git"   # official — keep this
-  # "https://github.com/nunchaku-tech/ComfyUI-nunchaku.git" # removed — duplicate
+  "https://github.com/pixaroma/ComfyUI-Pixaroma.git"
+
   "https://github.com/yolain/ComfyUI-Easy-Use.git"
   "https://github.com/BadCafeCode/masquerade-nodes-comfyui.git"
   "https://github.com/giriss/comfy-image-saver.git"
@@ -52,7 +52,7 @@ REPOS=(
   "https://github.com/chflame163/ComfyUI_LayerStyle.git"
   "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git"
   "https://github.com/aining2022/ComfyUI_Swwan.git"
-  # "https://github.com/nunchaku-tech/ComfyUI-nunchaku.git" # removed — use nunchaku-ai instead
+
   "https://github.com/1038lab/ComfyUI-QwenVL.git"
   "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git"
   "https://github.com/chrisgoringe/cg-use-everywhere.git"
@@ -63,8 +63,9 @@ REPOS=(
   "https://github.com/pixelmavenai/comfyui-custom-branding.git"
   "https://github.com/ClownsharkBatwing/RES4LYF.git"
   "https://github.com/aria1th/ComfyUI-LogicUtils.git"
-  "https://github.com/pixaroma/ComfyUI-Pixaroma.git"
-  # removed wrong URL above, added correct one below with custom folder name to avoid clash with 1038lab/ComfyUI-QwenVL
+
+  "https://github.com/nunchaku-ai/ComfyUI-nunchaku.git"  
+
 )
 
 mkdir -p custom_nodes
