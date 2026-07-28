@@ -37,7 +37,7 @@ REPOS=(
   "https://github.com/kijai/ComfyUI-Florence2.git"
   "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git"
   "https://github.com/kijai/ComfyUI-SUPIR.git"
-  "https://github.com/pixaroma/ComfyUI-Pixaroma.git"
+  #"https://github.com/pixaroma/ComfyUI-Pixaroma.git"
 
   "https://github.com/yolain/ComfyUI-Easy-Use.git"
   "https://github.com/BadCafeCode/masquerade-nodes-comfyui.git"
@@ -64,7 +64,7 @@ REPOS=(
   "https://github.com/ClownsharkBatwing/RES4LYF.git"
   "https://github.com/aria1th/ComfyUI-LogicUtils.git"
 
-  "https://github.com/nunchaku-ai/ComfyUI-nunchaku.git"  
+  #"https://github.com/nunchaku-ai/ComfyUI-nunchaku.git"  
 
 )
 
